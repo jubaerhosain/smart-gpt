@@ -1,0 +1,43 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+}
+.homepage .header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+    background: white;
+    box-shadow:rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items:center;
+}
+
+.homepage .header img{
+    height: 70px;
+    width: 60px;
+    inline-size: block;
+    margin-right: 30px;
+}
+
+.homepage .header h1{
+    color: #0f8abf;
+}
+
+.homepage .content{
+    margin-top: 100px;
+    background-color: white;
+    width: 100%;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+
+@media only screen and (max-width: 1000px){
+
+}

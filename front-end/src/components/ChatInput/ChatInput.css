@@ -1,0 +1,41 @@
+.floating-input-box-container {
+    position: fixed;
+    bottom: 60px;
+    /* right: 20px; */ 
+    justify-content: center;
+  }
+  
+  .floating-input-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    width: 200px;
+    transition: box-shadow 0.3s ease;
+    min-width: 350px;
+    
+  }
+  
+  .floating-input-box:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .input-box {
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    height: 50px;
+    width: 98%;
+}
+
+.custom-form-item {
+    background-color: #eeeded;
+    border: 1px solid #e4dede;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+  

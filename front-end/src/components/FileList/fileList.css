@@ -1,0 +1,42 @@
+
+.applicant-list-table-container {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fffafa;
+    min-height: 80vh;
+    padding: 10px 20px;
+}
+
+.applicant-list-table .ant-table-thead .ant-table-cell {
+    background-color: #0f8abf !important;
+    font-size: 1.1rem;
+    color: white !important;
+    height: 80px !important;
+}
+
+.my-table-row{
+    font-size: 1rem;
+    background-color: #e1f0f5;
+    color: rgb(35, 88, 58) !important;
+    height: 80px !important; 
+}
+
+@media (max-width: 1000px) {
+    .applicant-list-table-container {
+        border: 1px solid #ddd;
+        padding: 4px;
+    }
+    .applicant-list-table .ant-table-thead .ant-table-cell {
+        font-size: 0.7rem;
+        height: 40px !important;
+    }
+    .my-table-row{
+        font-size: 0.7rem;
+        height: 40px !important; 
+    }
+    .applicant-list-table{
+        width: 800px;
+    }
+}
+
+
