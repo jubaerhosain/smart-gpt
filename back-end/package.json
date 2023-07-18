@@ -1,0 +1,42 @@
+{
+  "name": "rational-thinkers-demo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is a demo app to learn cloud hosting and git actions",
+  "main": "app.js",
+  "scripts": {
+    "start": "dotenv -e .env; nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muktar16/rational-thinkers-demo.git"
+  },
+  "author": "Muktar Hosen Mridha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muktar16/rational-thinkers-demo/issues"
+  },
+  "homepage": "https://github.com/Muktar16/rational-thinkers-demo#readme",
+  "dependencies": {
+    "@leap-ai/sdk": "^0.0.119",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "minio": "^7.1.1",
+    "mongoose": "^7.3.4",
+    "multer": "^1.4.5-lts.1",
+    "node-tesseract-ocr": "^2.2.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdf-parser": "^1.0.5",
+    "pdfjs-dist": "^3.8.162",
+    "request": "^2.88.2",
+    "tesseract.js": "^4.1.1"
+  }
+}
